@@ -31,7 +31,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.callbacks import ModelCheckpoint
 from sklearn.preprocessing import MinMaxScaler
 
-inp = 64    
+inp = 128    
 
 def Dual_Proposed(x_train, x_test, y_train, y_test, numberofmodels, epoch, batch_size):
     

@@ -27,7 +27,7 @@ def loadDataset(path):
             n= cv2.imread(img)
             class_num = folders.index(folder)
             label_list.append(class_num)
-            resized = cv2.resize(n, (64, 64))
+            resized = cv2.resize(n, (128, 128))
             img_list.append(resized)
         
     #Splitting the data based on scikit-learn Library

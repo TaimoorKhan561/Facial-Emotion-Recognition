@@ -12,10 +12,6 @@ AllDatasetFolder ='Dataset/' # use your path
 epoch = 3
 batch_size = 16
 
-print("..................................")
-print("......Start training on  : dataset.............")
-print("................................................Please wait a while...........................")
-print("..................................")
 
 TrainData = AllDatasetFolder
 
